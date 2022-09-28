@@ -12,6 +12,7 @@
     --h6-size:25px;
     --link-font-weight: 500;
     --transition-speed :all  ease 0.2s;
+    --root-transition-speed :all  ease 1s;
 
 }
 
@@ -20,6 +21,7 @@
     box-sizing: border-box;
     transition: var(--transition-speed);
     font-family: poppins;
+    transition: var(--root-transition-speed);
     
 }
 
@@ -505,6 +507,9 @@ footer div:nth-child(2) {
     max-width: 100%;
     max-height: 100%;
 }
+
+
+
 
 
 @media screen and (max-width: 1000px) {
